@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Поддержка — RepBook</title>
+<meta name="description" content="Как сообщить об ошибке, восстановить покупку, перенести данные на новый телефон и отменить подписку.">
+<style>
+  :root{
+    --akcent:#E8541A; --tekst:#12161C; --dim:#5E6874; --faint:#98A2B0;
+    --fon:#FFFFFF; --karta:#F6F7F9; --granica:#E4E7EC;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:0 20px 80px;
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    color:var(--tekst); background:var(--fon);
+  }
+  .obertka{max-width:720px;margin:0 auto}
+  header{padding:28px 0 8px;border-bottom:1px solid var(--granica);margin-bottom:28px}
+  .znak{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
+  .znak i{display:block;width:8px;height:26px;border-radius:4px;background:var(--akcent)}
+  .znak b{font-size:19px;letter-spacing:.04em}
+  nav{margin-top:14px;display:flex;flex-wrap:wrap;gap:16px;font-size:15px}
+  nav a{color:var(--dim);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px}
+  nav a:hover,nav a[aria-current]{color:var(--akcent);border-bottom-color:var(--akcent)}
+  h1{font-size:30px;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+  h2{font-size:21px;margin:34px 0 10px;letter-spacing:-.01em}
+  h3{font-size:17px;margin:24px 0 8px}
+  .data{color:var(--faint);font-size:14px;margin:0 0 24px}
+  ul,ol{padding-left:22px}
+  li{margin:6px 0}
+  a{color:var(--akcent)}
+  table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--granica);vertical-align:top}
+  th{color:var(--dim);font-weight:600}
+  .karta{background:var(--karta);border:1px solid var(--granica);border-radius:14px;padding:18px 20px;margin:20px 0}
+  .karta p:first-child{margin-top:0} .karta p:last-child{margin-bottom:0}
+  pre{background:var(--karta);border:1px solid var(--granica);border-radius:14px;padding:16px 18px;overflow:auto;font-size:14px;line-height:1.6}
+  footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--granica);color:var(--faint);font-size:14px}
+  footer a{color:var(--dim)}
+  @media (max-width:520px){ h1{font-size:25px} body{padding:0 16px 60px} }
+</style>
+
+</head>
+<body>
+<div class="obertka">
+<header>
+  <a class="znak" href="index.html"><i></i><b>RepBook</b></a>
+  <nav>
+    <a href="index.html">О приложении</a>
+    <a href="privacy.html">Конфиденциальность</a>
+    <a href="offer.html">Оферта</a>
+    <a href="support.html" aria-current="page">Поддержка</a>
+  </nav>
+</header>
+
+<h1>Поддержка</h1>
+<p class="data">Пишите на <a href="mailto:info@reotest.ru">info@reotest.ru</a> —
+отвечает живой человек.</p>
+
+<h2>Сообщить об ошибке</h2>
+<p>Чтобы разобраться быстро, в письме пригодятся четыре вещи:</p>
+<ol>
+  <li><b>Версия приложения</b> — «Ещё» → в самом низу экрана</li>
+  <li><b>Модель телефона и версия Android</b></li>
+  <li><b>Что вы делали</b> перед тем, как сломалось</li>
+  <li><b>Скриншот или короткое видео</b>, если проблему видно глазами</li>
+</ol>
+
+<h2>Таймер отдыха останавливается, когда гаснет экран</h2>
+<p>Так ведут себя телефоны <b>Xiaomi, Redmi и POCO</b>: на прошивке MIUI
+автозапуск приложений выключен по умолчанию, и система закрывает приложение
+вместе с таймером, как только его убирают из «недавних».</p>
+<p>Лечится одной галочкой: откройте в приложении «Ещё» → «Отсчёт при погашенном
+экране», там будет карточка «Особенности вашего телефона» и кнопка, ведущая
+прямо в нужные настройки. Включите «Автозапуск» и снимите ограничения батареи.</p>
+
+<h2>Восстановить покупку</h2>
+<p>Переустановили приложение или сменили телефон — откройте «Ещё» → RepBook PRO
+→ <b>«Восстановить покупку»</b>. Нужно войти в ту же учётную запись RuStore,
+через которую покупка была сделана.</p>
+<p>Если покупка не восстанавливается, напишите нам: укажите почту учётной
+записи RuStore и примерную дату покупки.</p>
+
+<h2>Отменить подписку</h2>
+<p>Подписками управляет магазин, а не приложение: RuStore → профиль →
+«Подписки» → RepBook → отменить. После отмены PRO работает до конца
+оплаченного периода.</p>
+<p>Отмена подписки <b>не удаляет ваши данные</b>. Вся история, программы и
+собственные упражнения остаются на месте и продолжают работать — закрывается
+только добавление нового сверх бесплатных пределов. Подробнее — в
+<a href="offer.html">оферте</a>, раздел 6.</p>
+
+<h2>Перенести данные на новый телефон</h2>
+<ol>
+  <li>На старом: «Ещё» → «Экспорт резервной копии» → сохранить JSON-файл и
+      отправить его себе любым способом</li>
+  <li>На новом: поставить RepBook, «Ещё» → «Импорт резервной копии» → выбрать
+      файл</li>
+</ol>
+<p>Копия бесплатна и не требует PRO. Делайте её время от времени: данные лежат
+только в телефоне, и после потери телефона взять их больше неоткуда.</p>
+<div class="karta">
+  <p><b>Фотографии прогресса в резервную копию не входят.</b> Они остаются на
+  телефоне, и перенести их надо отдельно — обычным способом, которым вы
+  переносите снимки из галереи.</p>
+</div>
+
+<h2>Перенести историю из другого дневника</h2>
+<p>«Ещё» → «Импорт из другого дневника». Подойдёт выгрузка CSV из Strong,
+Hevy и подобных приложений: история добавится к вашей, ничего не сотрётся.
+Если формат не распознался — пришлите нам файл, посмотрим.</p>
+
+<h2>Вернуть деньги</h2>
+<p>Заявление на возврат подаётся через магазин RuStore. Если магазин не решает
+вопрос — напишите нам.</p>
+
+<h2>Предложить функцию</h2>
+<p>Пишите. Приложение делает небольшая команда, и письма от людей, которые
+реально ходят в зал, решают, что появится в следующей версии.</p>
+
+<footer>
+  <p>ООО «РеоТест», ОГРН 1201600083783, ИНН 1658229144.
+  Почта: <a href="mailto:info@reotest.ru">info@reotest.ru</a></p>
+  <p>RepBook — дневник тренировок в зале. Данные хранятся только на вашем телефоне.</p>
+</footer>
+</div>
+</body>
+</html>
